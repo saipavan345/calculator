@@ -1,0 +1,63 @@
+#cal
+{
+    text-align: center;  
+}
+
+#btn
+{
+    border: 2px solid black;
+    padding:10px;
+    margin: 3px;
+    width: 50px;
+    font-size: 12px;
+    font-family: MV Boli;
+    border-radius: 2px;
+    background-image: linear-gradient(skyblue,pink);
+}
+.screen1
+{
+    width: 220px;
+    height: 50px;
+    border:3px solid black;
+    background-color: bisque;
+    border-radius: 2px;
+   
+}
+body
+{
+   background-image: url("cal.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+#app1
+{
+    color:rgb(243, 5, 5);
+    animation-name: example;
+    animation-duration: 5s;
+    font-family: MV Boli;
+    font-style: bold;
+}
+@keyframes example {
+    from {color: rgb(1, 20, 1)}
+    to {color:rgb(227, 151, 11);}
+  }
+  #heading
+  {
+    text-align: center;
+  
+  }
+ 
+  #boxsize
+  {
+    display: flex;
+    border: 1px solid black;
+    width:237px;
+    height:295px;
+    margin-left: 320px;
+    padding:20px 20px;
+    align-items: center;
+    margin-top: 25px;
+    background-image: linear-gradient(rgb(10, 169, 209),rgb(26, 104, 26));
+  }
+  
